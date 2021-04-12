@@ -17,6 +17,10 @@ namespace exercise_67
         }
         list.Add(input);
       }
+      int i = list.Count-1;
+      Console.WriteLine(list[0]);
+      Console.WriteLine(list[i]);
+            Console.ReadLine();
 
     }
   }

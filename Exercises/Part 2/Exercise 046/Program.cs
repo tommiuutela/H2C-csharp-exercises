@@ -7,7 +7,13 @@ namespace exercise_46
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+     int input = Convert.ToInt32(Console.ReadLine());
+     int count = input;
+                while (count<101)
+            {
+                Console.WriteLine(count);
+                count = count+1;
+            }
 
     }
   }

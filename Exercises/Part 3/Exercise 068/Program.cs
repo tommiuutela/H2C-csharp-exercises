@@ -18,6 +18,16 @@ namespace exercise_68
         list.Add(input);
       }
 
+
+
+      int i=0;
+      while (i < list.Count)
+	{
+      Console.WriteLine(list[i]);
+        i++;
+	}
+      Console.ReadLine();
+
     }
   }
 }

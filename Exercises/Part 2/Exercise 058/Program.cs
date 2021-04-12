@@ -8,9 +8,17 @@ namespace exercise_58
     {
       int answer = Smallest(2, 7);
       Console.WriteLine("Smallest: " + answer);
+            Console.ReadLine();
     }
 
-    // Write your method here:
+    public static int Smallest(int number1, int number2) 
+{
+   if (number1>number2)
+	{
+     return number2;
+	}
+   else return number1;
+}
     
   }
 }

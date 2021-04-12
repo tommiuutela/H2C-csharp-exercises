@@ -7,7 +7,7 @@ namespace exercise_22
     public static void Main(string[] args)
     {
 
-     Console.WriteLine("Give the first number!");
+    Console.WriteLine("Give the first number!");
        string firstInput = Console.ReadLine();
      Console.WriteLine("Give the second number!");
        string secondInput = Console.ReadLine();
@@ -16,8 +16,7 @@ namespace exercise_22
      int firstNumber = Convert.ToInt32(firstInput);
      int secondNumber = Convert.ToInt32(secondInput);
      int thirdNumber = Convert.ToInt32(thirdInput);
-     Console.WriteLine("The average is "+((double)firstNumber + secondNumber + thirdNumber) / 3);
-            Console.ReadLine();
+     Console.WriteLine("The average is "+((double)firstNumber + secondNumber + thirdNumber) / 3);       
     }
   }
 }

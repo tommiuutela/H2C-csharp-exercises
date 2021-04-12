@@ -7,7 +7,9 @@ namespace exercise_41
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      int input = Convert.ToInt32(Console.ReadLine());
+      int secondpower = input*input;
+      Console.WriteLine(secondpower);
       
     }
   }

@@ -7,6 +7,10 @@ namespace exercise_83
   {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Give a word: ");
+        string input = Console.ReadLine();
+        Console.Write(input + input + input);
+        Console.ReadLine();
 
 
     }

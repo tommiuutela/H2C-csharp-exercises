@@ -4,15 +4,20 @@ namespace exercise_50
 {
   class Program
   {
-    public static void Main(string[] args)
+      public static void Main(string[] args)
     {
-      // Call your method here:
- 
+      Console.WriteLine("How many times?");
+      int repetition = Convert.ToInt32(Console.ReadLine());
+      int count = 0;
+            while (count<repetition)
+            {
+               PrintPhrase();
+               count = count + 1;
+            } 
     }
 
-    // Write your method here:
     public static void PrintPhrase() {
-
+     Console.WriteLine("In a hole in the ground there lived a method");
     }
   }
 }

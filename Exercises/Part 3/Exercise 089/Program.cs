@@ -7,8 +7,13 @@ namespace exercise_89
   {
     public static void Main(string[] args)
     {
-
-
+        string input = Console.ReadLine();
+        while (input!="")
+	{
+        string[] pieces = input.Split(' ');
+        Console.WriteLine(pieces[pieces.Length-1]);
+        input = Console.ReadLine();
+     }
     }
   }
 }
