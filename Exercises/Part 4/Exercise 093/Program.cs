@@ -6,9 +6,12 @@ namespace exercise_93
   {
     public static void Main(string[] args)
     {
-      // DO NOT TOUCH THE OTHER FILE!
-      // Do your code here!
 
+            Account aurasAccount = new Account("Auras account", 100 );
+            aurasAccount.Deposit(20);
+
+            Console.WriteLine(aurasAccount);
+            Console.ReadLine();
     }
   }
 }

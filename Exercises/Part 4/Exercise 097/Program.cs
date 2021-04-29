@@ -14,10 +14,28 @@ namespace exercise_97
       duckWhistle.Sound();
       roosterWhistle.Sound();
       duckWhistle.Sound();
+            Console.ReadLine();
 
     }
-  }
 }
+
+    public class Whistle
+    {
+
+        private string sound;
+        public Whistle(string whistleSound)
+        { 
+            this.sound = whistleSound;
+        
+        }
+            public void Sound()
+            {
+               Console.WriteLine(sound);
+            }
+    }
+  }
+
+
 
 
 
